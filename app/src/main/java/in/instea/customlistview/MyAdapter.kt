@@ -24,7 +24,7 @@ class MyAdapter(private val context: Activity, private val arrayList: ArrayList<
         name.text = arrayList[position].name
         time.text = arrayList[position].msgTime
         image.setImageResource(arrayList[position].image)
-        time.text = arrayList[position].messageContent
+        message.text = arrayList[position].messageContent
 
         return view
 
